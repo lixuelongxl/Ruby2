@@ -1,6 +1,6 @@
 source 'https://gems.ruby-china.com'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+# Bundle edge Rails instead: gem 'rails', '>= 5.2.4.3', github: 'rails/rails'
 gem 'rails'
 # Use mysql2 as the database for Active Record
 gem 'mysql2'
@@ -54,7 +54,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.3', '>= 2.3.0'
   # guard handle events on file system modifications.
   gem 'guard'
   gem 'guard-livereload'
