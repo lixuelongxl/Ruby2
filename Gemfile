@@ -54,7 +54,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.3', '>= 2.3.0'
   # guard handle events on file system modifications.
   gem 'guard'
   gem 'guard-livereload'
