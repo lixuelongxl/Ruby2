@@ -1,6 +1,6 @@
 source 'https://gems.ruby-china.com'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+# Bundle edge Rails instead: gem 'rails', '>= 6.1.7.3', github: 'rails/rails'
 gem 'rails'
 # Use mysql2 as the database for Active Record
 gem 'mysql2'
@@ -12,8 +12,8 @@ gem 'uglifier'
 gem 'coffee-rails'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
-gem 'gon'
+gem 'jquery-rails', '>= 4.4.0'
+gem 'gon', '>= 6.4.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
@@ -38,7 +38,7 @@ gem 'devise'
 # gem 'bcrypt', '~> 3.1.7'
 
 #Use Puma as the app server
-gem 'puma'
+gem 'puma', '>= 4.3.12'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -54,7 +54,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.3', '>= 2.3.0'
   # guard handle events on file system modifications.
   gem 'guard'
   gem 'guard-livereload'
