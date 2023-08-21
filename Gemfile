@@ -38,7 +38,7 @@ gem 'devise'
 # gem 'bcrypt', '~> 3.1.7'
 
 #Use Puma as the app server
-gem 'puma'
+gem 'puma', '>= 5.6.7'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
