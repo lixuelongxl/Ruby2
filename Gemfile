@@ -1,6 +1,6 @@
 source 'https://gems.ruby-china.com'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+# Bundle edge Rails instead: gem 'rails', '>= 5.2.4.3', github: 'rails/rails'
 gem 'rails'
 # Use mysql2 as the database for Active Record
 gem 'mysql2'
@@ -12,8 +12,8 @@ gem 'uglifier'
 gem 'coffee-rails'
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
-gem 'gon'
+gem 'jquery-rails', '>= 4.4.0'
+gem 'gon', '>= 6.4.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder'
@@ -25,14 +25,14 @@ gem 'jbuilder'
 gem 'therubyracer'
 
 gem 'haml'
-gem 'haml-rails'
-gem 'html2haml'
+gem 'haml-rails', '>= 2.1.0'
+gem 'html2haml', '>= 2.3.0'
 
 # annotate model
 gem 'annotate'
 
 # user system
-gem 'devise'
+gem 'devise', '>= 4.7.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -46,15 +46,15 @@ gem 'puma'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'rspec-rails'
-  gem 'factory_bot_rails'
+  gem 'rspec-rails', '>= 4.0.1'
+  gem 'factory_bot_rails', '>= 5.2.0'
   gem 'database_cleaner'
   gem 'letter_opener'
 end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 3.0', '>= 3.0.0'
   # guard handle events on file system modifications.
   gem 'guard'
   gem 'guard-livereload'
